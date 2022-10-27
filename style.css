@@ -55,7 +55,8 @@
     border-bottom: 3px solid #6B705B; /*borda para finalizar o espaço reservado ao banner*/
 }
 
-.titulo-cardapio {
+.titulo-cardapio,
+.titulo-galeria {
     margin-top: 50px;
     font-family: 'Cookie';
     font-weight: normal; /*define destaque da fonte*/
@@ -66,9 +67,38 @@
 
 .lista-cardapio {
     column-count: 4; /*define número de colunas*/
-    column-gap: 25px; /*espaçamento entre as colunas*/
+    /*column-gap: 25px; espaçamento entre as colunas*/
     padding: 68px;
     font-family: 'Roboto';
-    color: #68705B;
+    color: #6B705C;
+}
 
+.galeria-fotos {
+    background-color: #6B705C;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+.titulo-galeria {
+    color: #FFE8D6;
+    padding-bottom: 20px;
+}
+
+.linha-fotos {
+    /*display: inline; um elemento na frente do outro*/
+    /*display: block; um elemento embaixo do outro*/
+    display: flex; /*um elemento na frente do outro*/
+    justify-content: space-evenly; /*espaça os elementos*/
+
+}
+
+.foto-bolo {
+    border: 5px solid #FFE8D6;
+    border-radius: 3px;
+}
+
+.foto-bolo:hover {
+    border-color: aquamarine;
+    cursor: crosshair; /*destaca a borda na passagem do cursor*/
+    transform: scale(1.1); /*destaca a imagem na passagem do cursor*/
 }
