@@ -47,5 +47,9 @@
 }
 
 .item-menu {
-    color: #FFE8D6;
+    color: #FFE8D6; /*define cor da fonte do texto*/
+}
+
+.imagem-banner {
+    width: 100%;
 }
