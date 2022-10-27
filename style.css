@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    /*para zerar as margens - sempre utilizar*/
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.site-inteiro {
+    width: 1000px; /*tamanho do site inteiro*/
+    border: 1px solid red; /*depois apagar esta linha*/
+    margin: 0 auto; /*0 vale para o top e bottom, auto para left e right*/
+}
+
+.cabecalho {
+    text-align: center; /*centraliza os elementos do cabeçalho*/
+    background-image: url('imagens/fundo-banner.png'); /*define uma imagem de fundo*/
+    background-position: center center; /*primeiro center é para top e bottom, segundo center para left e right*/
+    background-size: cover; /*preenche com a imagem todo o fundo do tamanho do site*/
+    background-repeat: no-repeat; /*para não repetir a imagem quando ela for menor que o tamanho do site*/
+    padding-top: 20px; /*aumenta espaçamento na borda superior do cabeçalho*/
+    padding-bottom: 20px; /*aumenta espaçamento na borda inferior do cabeçalho*/
+}
+
+.titulo {
+    font-family: 'Cookie'; /*fonte definida pelo usuário*/
+    font-size: 60px; /*tamanho da fonte*/
+    line-height: 35px; /*altura da linha - diminui ou aumenta o espaçamento entre linhas*/
+    color:#68705b; /*define a cor da fonte*/
+    font-weight: normal; /*deixa a fonte mais fina*/
+    
+}
+
+.titulo-pequeno {
+    font-size: 30px; /*tamanho da fonte*/
+}
+
+.menu-principal {
+    background-color: #68705b; /*define a cor de fundo do menu-principal*/
+    text-align: center; /*centraliza os elementos do menu-principal*/
+    padding-top: 10px; /*aumenta espaçamento na borda superior do menu-principal*/
+    padding-bottom: 10px; /*aumenta espaçamento na borda inferior do menu-principal*/
+    font-family: 'Roboto'; /*define uma fonte*/
+    color: #FFE8D6; /*define cor da fonte do texto*/
+
+}
+
+.item-menu {
+    color: #FFE8D6;
+}
