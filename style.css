@@ -51,5 +51,24 @@
 }
 
 .imagem-banner {
-    width: 100%;
+    width: 100%; /*a imagem utilizará 100% do espaço do banner*/
+    border-bottom: 3px solid #6B705B; /*borda para finalizar o espaço reservado ao banner*/
+}
+
+.titulo-cardapio {
+    margin-top: 50px;
+    font-family: 'Cookie';
+    font-weight: normal; /*define destaque da fonte*/
+    font-size: 45px; /*tamanho da fonte*/
+    color: #CB997E; /*define a cor*/
+    text-align: center; /*centraliza os elementos*/
+}
+
+.lista-cardapio {
+    column-count: 4; /*define número de colunas*/
+    column-gap: 25px; /*espaçamento entre as colunas*/
+    padding: 68px;
+    font-family: 'Roboto';
+    color: #68705B;
+
 }
