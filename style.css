@@ -7,9 +7,13 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .site-inteiro {
     width: 1000px; /*tamanho do site inteiro*/
-    border: 1px solid red; /*depois apagar esta linha*/
+    /*border: 1px solid red; depois apagar esta linha*/
     margin: 0 auto; /*0 vale para o top e bottom, auto para left e right*/
 }
 
@@ -112,3 +116,22 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.rodape {
+    text-align: center;
+    border-top: 5px solid #6B705C;
+    padding: 20px;
+}
+
+.titulo-rodape {
+    font-weight: normal; /*define destaque da fonte*/
+    font-size: 50px;
+    line-height: 30px; /*altura da linha - diminui ou aumenta o espaçamento entre linhas*/
+    font-family: 'Cookie';
+    color: #6B705B;
+    margin-bottom: 20px;
+}
+.redes-sociais {
+    text-decoration: none;
+}
+
